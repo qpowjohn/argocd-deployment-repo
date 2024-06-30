@@ -1,4 +1,4 @@
-bases:
-- ../../base
+
 resources:
+- ../../base
 - https://github.com/qpowjohn/argocd-config-repo/blob/main/environments/dev/homepage.yaml
