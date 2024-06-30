@@ -1,4 +1,5 @@
-
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 resources:
-- ../../base
-- https://github.com/qpowjohn/argocd-config-repo/blob/main/environments/dev/homepage.yaml
+  - ../../base
+  - https://raw.githubusercontent.com/your-org/config-repo/main/environments/dev/kustomization.yaml
