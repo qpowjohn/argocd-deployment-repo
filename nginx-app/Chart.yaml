@@ -1,0 +1,8 @@
+apiVersion: v2
+name: nginx-app
+description: A Helm chart for deploying nginx application
+version: 0.1.0
+dependencies:
+  - name: nginx-app
+    version: 0.1.0
+    repository: https://github.com/qpowjohn/argocd-config-repo/nginx-app
